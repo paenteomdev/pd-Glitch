@@ -1,6 +1,6 @@
 # PD-GLITCH
 
-A comprehensive unstuck system for FiveM servers with advanced features, beautiful UI, and admin tools.
+A comprehensive unstuck system for FiveM QB Core servers with advanced features, beautiful UI, and admin tools.
 
 <div dir="rtl" lang="ar">
 # نظام بي دي جليتش
