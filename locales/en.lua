@@ -1,0 +1,53 @@
+if not Locale then Locale = {} end
+
+Locale['en'] = {
+    ['command_help'] = 'Use this command if you are stuck underground or in an object',
+    ['success'] = 'You have been teleported to the nearest walkable surface!',
+    ['no_surface'] = 'No walkable surface found nearby!',
+    ['not_stuck'] = 'You are not stuck underground!',
+    ['cooldown'] = 'You must wait %s seconds before using this command again!',
+    ['blacklisted_area'] = 'You cannot use this command in this area!',
+    ['admin_notification'] = 'Player %s used the glitch command at %s',
+    ['ui_title'] = 'Unstuck Menu',
+    ['ui_description'] = 'Use this to teleport out if you are stuck',
+    ['ui_button'] = 'Teleport Out',
+    ['stats_uses'] = 'Total uses: %s',
+    ['stats_success'] = 'Successful teleports: %s',
+    ['stats_failed'] = 'Failed teleports: %s',
+
+    -- UI Elements
+    ['player_info'] = 'Player Information',
+    ['player_id'] = 'Player ID:',
+    ['player_name'] = 'Player Name:',
+    ['current_location'] = 'Current Location:',
+    ['stuck_status'] = 'Stuck Status:',
+    ['ground_distance'] = 'Ground Distance:',
+    ['last_teleport'] = 'Last Teleport:',
+    ['stuck'] = 'Stuck',
+    ['not_stuck_status'] = 'Not Stuck',
+    ['report_button'] = 'Report Issue',
+    ['report_sent'] = 'Report Sent!',
+    ['close_button'] = 'Close',
+    ['never'] = 'Never',
+    ['just_now'] = 'just now',
+    ['seconds_ago'] = '%s seconds ago',
+    ['minutes_ago'] = '%s minutes ago',
+    ['hours_ago'] = '%s hours ago',
+    ['days_ago'] = '%s days ago',
+    ['months_ago'] = '%s months ago',
+    ['years_ago'] = '%s years ago',
+    ['unknown'] = 'Unknown',
+    ['meters'] = 'meters',
+    ['use_this_message'] = 'Use this to teleport out if you are stuck',
+
+    -- Admin related translations
+    ['admin_teleported_by'] = 'An admin has teleported you out',
+    ['admin_player_not_found'] = 'Player not found',
+    ['admin_menu_help'] = 'Open the admin unstuck menu',
+    ['ui_menu_help'] = 'Open the unstuck menu',
+    ['report_cooldown'] = 'You must wait %s seconds before reporting again!',
+    ['report_success'] = 'Your report has been sent to the admins!',
+    ['admin_teleported'] = 'You have teleported player %s',
+    ['admin_teleported_to'] = 'You have teleported to player %s',
+    ['admin_no_permission'] = 'You do not have permission to use this command'
+}

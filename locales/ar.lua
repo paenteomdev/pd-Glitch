@@ -1,0 +1,53 @@
+if not Locale then Locale = {} end
+
+Locale['ar'] = {
+    ['command_help'] = 'استخدم هذا الأمر إذا كنت عالقًا تحت الأرض أو في كائن',
+    ['success'] = 'تم نقلك إلى أقرب سطح قابل للمشي عليه!',
+    ['no_surface'] = 'لم يتم العثور على سطح قابل للمشي عليه بالقرب منك!',
+    ['not_stuck'] = 'أنت لست عالقاً تحت الأرض!',
+    ['cooldown'] = 'يجب عليك الانتظار %s ثانية قبل استخدام هذا الأمر مرة أخرى!',
+    ['blacklisted_area'] = 'لا يمكنك استخدام هذا الأمر في هذه المنطقة!',
+    ['admin_notification'] = 'اللاعب %s استخدم أمر الخروج من العلق في %s',
+    ['ui_title'] = 'قائمة الخروج من العلق',
+    ['ui_description'] = 'استخدم هذا للخروج إذا كنت عالقًا',
+    ['ui_button'] = 'الخروج من العلق',
+    ['stats_uses'] = 'إجمالي الاستخدامات: %s',
+    ['stats_success'] = 'عمليات النقل الناجحة: %s',
+    ['stats_failed'] = 'عمليات النقل الفاشلة: %s',
+
+    -- UI Elements
+    ['player_info'] = 'معلومات اللاعب',
+    ['player_id'] = 'معرف اللاعب:',
+    ['player_name'] = 'اسم اللاعب:',
+    ['current_location'] = 'الموقع الحالي:',
+    ['stuck_status'] = 'حالة العلق:',
+    ['ground_distance'] = 'المسافة عن الأرض:',
+    ['last_teleport'] = 'آخر نقل:',
+    ['stuck'] = 'عالق',
+    ['not_stuck_status'] = 'غير عالق',
+    ['report_button'] = 'الإبلاغ عن مشكلة',
+    ['report_sent'] = 'تم إرسال البلاغ!',
+    ['close_button'] = 'إغلاق',
+    ['never'] = 'أبدًا',
+    ['just_now'] = 'الآن',
+    ['seconds_ago'] = 'منذ %s ثانية',
+    ['minutes_ago'] = 'منذ %s دقيقة',
+    ['hours_ago'] = 'منذ %s ساعة',
+    ['days_ago'] = 'منذ %s يوم',
+    ['months_ago'] = 'منذ %s شهر',
+    ['years_ago'] = 'منذ %s سنة',
+    ['unknown'] = 'غير معروف',
+    ['meters'] = 'متر',
+    ['use_this_message'] = 'استخدم هذا للخروج إذا كنت عالقًا',
+
+    -- Admin related translations
+    ['admin_teleported_by'] = 'قام أحد المشرفين بنقلك للخارج',
+    ['admin_player_not_found'] = 'لم يتم العثور على اللاعب',
+    ['admin_menu_help'] = 'افتح قائمة المشرف لنظام الخروج من العلق',
+    ['ui_menu_help'] = 'افتح قائمة الخروج من العلق',
+    ['report_cooldown'] = 'يجب عليك الانتظار %s ثانية قبل الإبلاغ مرة أخرى!',
+    ['report_success'] = 'تم إرسال بلاغك إلى المشرفين!',
+    ['admin_teleported'] = 'لقد قمت بنقل اللاعب %s',
+    ['admin_teleported_to'] = 'لقد انتقلت إلى اللاعب %s',
+    ['admin_no_permission'] = 'ليس لديك صلاحية لاستخدام هذا الأمر'
+}

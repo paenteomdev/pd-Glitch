@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD-GLITCH Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="unstuck-menu" class="container">
+        <div class="header">
+            <div class="header-bg"></div>
+            <h1 id="title">Unstuck Menu</h1>
+        </div>
+        <div class="content">
+            <div class="player-info">
+                <h2 id="player-info-title">Player Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label" id="player-id-label">Player ID:</span>
+                        <span id="player-id" class="info-value">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="player-name-label">Player Name:</span>
+                        <span id="player-name" class="info-value">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="current-location-label">Current Location:</span>
+                        <span id="player-coords" class="info-value">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="stuck-status-label">Stuck Status:</span>
+                        <span id="stuck-status" class="info-value">Analyzing...</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="ground-distance-label">Ground Distance:</span>
+                        <span id="ground-distance" class="info-value">Calculating...</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="last-teleport-label">Last Teleport:</span>
+                        <span id="last-teleport" class="info-value">None</span>
+                    </div>
+                </div>
+            </div>
+            <p id="description">Use this to teleport out if you are stuck</p>
+            <p id="arabic-message" class="arabic-text" style="display: none;">استخدم هذا للخروج إذا كنت عالقًا</p>
+            <div class="buttons">
+                <button id="unstuck-button">
+                    <span class="btn-text" id="unstuck-button-text">Teleport Out</span>
+                    <span class="btn-glow"></span>
+                </button>
+                <button id="report-button">
+                    <span class="btn-text" id="report-button-text">Report Issue</span>
+                    <span class="btn-glow"></span>
+                </button>
+                <button id="close-button">
+                    <span class="btn-text" id="close-button-text">Close</span>
+                </button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>PD-GLITCH SYSTEM v1.0.0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
